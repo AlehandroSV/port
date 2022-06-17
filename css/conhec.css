@@ -1,51 +1,59 @@
-.icons {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-}
-
-.icon-box {
+.conhecimento-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
 }
 
-@media screen and (max-width: 1070px) {
-    .icon-box {
+
+.title {
+    margin-top: 10px;
+}
+
+.card {
+    width: 35rem; 
+    margin: 10px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1170px) {
+    .card {
+        width: 30rem; 
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 25rem; 
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .conhecimento-container {
         grid-template-columns: 1fr;
     }
-
-    .icons {
-        border-radius: 50%;
-        width: 80px;
-        height: 80px;
-        margin-bottom: 10px
+    .card {
+        width: 30rem; 
+        margin: 10px 0px 0px 0px;
     }
 }
 
-@media screen and (max-width: 340px) {
-    .icons {
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        margin-bottom: 10px;
+@media screen and (max-width: 510px) {
+    .conhecimento-container {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        width: 25rem; 
+        margin: 10px 0px 0px 0px;
     }
 }
 
-@media screen and (max-width: 1070px) {
-    .icons {
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        margin-bottom: 10px;
+@media screen and (max-width: 430px) {
+    .conhecimento-container {
+        grid-template-columns: 1fr;
     }
-}
-@media screen and (max-width: 1180px){
-    .icons {
-        border-radius: 50%;
-        width: 80px;
-        height: 80px;
-        margin-bottom: 10px;
+    .card {
+        width: 20rem; 
+        margin: 10px 0px 0px 0px;
     }
 }

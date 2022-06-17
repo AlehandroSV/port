@@ -19,7 +19,7 @@
 <body>
   <nav class="navbar bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class="perfil" src="/assets/perfil.jpg" alt="" style="width: 70px;"></a>
+      <img class="perfil" src="/assets/perfil.jpg" alt="" style="width: 70px;">
       <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -50,77 +50,82 @@
                 <li><a class="dropdown-item" href="#">Projeto AOT (Em andamento)</a></li>
               </ul>
             </li>
+
             <button type="button" class="btn btn-info" id="liveToastBtn">Informação</button>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header bg-dark">
+                    <img src="/assets/icon-code.png" class="rounded me-2" alt="Icon Bootstrap" style="width: 30px;">
+                    <small class="me-auto text-light" style="font-size: 12pt;">Linguagens e Frameworks</small>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Fechar</button>
+                  </div>
+                  <div class="toast-body bg-light text-dark">
+                    Linguagens utilizadas: <br>
+                    &bull; HTML5 <br>
+                    &bull; CSS3 <br>
+                    &bull; JavaScript <br>
+                    &bull; Bootstrap
+                  </div>
+                </div>
+              </div>
+            </div>
           </ul>
         </div>
       </div>
     </div>
   </nav>
 
-  <button type="button" class="btn btn-info" id="liveToastBtn">Informação</button>
-  <div class="toast-container position-fixed bottom-0 end-0 p-3">
-    <div id="liveToast" class="toast bg-dark" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header bg-dark">
-        <img src="/assets/icon-code.png" class="rounded me-2" alt="Icon Bootstrap" style="width: 30px;">
-        <small class="me-auto" style="font-size: 12pt;">Linguagens e Frameworks</small>
-        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Fechar</button>
+  <h1 class="title text-center text-dark"> &bull; Linguagens de Programação</h1>
+  <div class="conhecimento-container">
+    <div class="card bg-dark">
+      <img src="/assets/icon_javascript.png" class="card-img-top align-self-center" alt="Icon JavaScript"
+        style="padding: 10px; width: 300px;">
+      <div class="card-body">
+        <h5 class="card-title text-danger">JavaScript</h5>
+        <p class="card-text">Fiz curso em duas plataformas diferente, Curso em Vídeo e Rocketseat.</p>
+        <p class="card-text">
+          <span class="text-danger">Meu aprendizado foi:</span> <br>
+          &bull; JavaScript Moderno (ECMAScript); <br>
+          &bull; Tipo de dados; <br>
+          &bull; Variáveis; <br>
+          &bull; Introdução ao DOM; <br>
+          &bull; Funções; <br>
+          &bull; Condições; <br>
+          &bull; Repetições; <br>
+          &bull; Manipulando dados; <br>
+          &bull; Expressões e operadores; <br>
+          &bull; Condicionais e controle de fluxo; <br>
+          &bull; Estruturas de repetição; <br>
+        </p>
       </div>
-      <div class="toast-body">
-        Linguagens utilizadas: <br>
-        &#128214; HTML5 <br>
-        &#127912; CSS3 <br>
-        &#10024; JavaScript <br>
-        &#127917; Bootstrap
+    </div>
+
+    <div class="card bg-dark">
+      <img src="/assets/icon_python.png" class="card-img-top align-self-center" alt="Icon Python"
+        style="padding: 10px; width: 300px;">
+      <div class="card-body">
+        <h5 class="card-title text-danger">Python</h5>
+        <p class="card-text">Fiz curso em duas plataformas diferente, Curso em Vídeo e Data Science Academy.</p>
+        <p class="card-text">
+          <span class="text-danger">Meu aprendizado foi:</span> <br>
+          &bull; Variáveis, Tipos e Estruturas de dados;<br>
+          &bull; Loops, Condicionais, Métodos e Funções;<br>
+          &bull; Tratamento de Arquivos, Módulos, Pacotes e Funções Built-in;<br>
+          &bull; Orientação a Objetos<br>
+          &bull; Manipulando Banco de Dados; <br>
+          &bull; TensorFlow; <br>
+          &bull; Machine Learning; <br>
+          &bull; Deep Learning; <br>
+          &bull; Desenvolvimento Web com Python; <br>
+          &bull; Web Scraping;
+        </p>
       </div>
     </div>
   </div>
-  <div class="cur">
-    <h1 class="top-title" style="color: #007067;" id="#sobre">Sobre Mim</h1>
-    <h2>
-      Olá! Meu nome é <strong style="color: #007067;">Alehandro</strong> tenho 17 anos (26/07/2004), adoro
-      programar e me aperfeiçoar em minhas técnicas! Atualmente cursando Gestão da Tecnologia da Informação
-      (Uniasselvi) e pretendo cursar também Análise e Desenvolvimento de Sistemas.
-      <br><br>
-      Comecei a programar com 16 anos e hoje procuro me aprimorar com as tecnologias que conheço, me considero
-      apto para novos aprendizados e já trabalhei para algumas empresas como <strong
-        style="color: #007067;">Full-Stack</strong> (Python e JavaScript), focado no Desenvolvimento Web e
-      Automação empresarial (DevOps)...
-      <br><br>
-      Estou em fase de crescimento na área e acredito que agregarei positivamente onde for encaixado, tenho um bom
-      raciocínio lógico, sou um bom analista tanto de códigos como de planilhas e ambientes.
-      <br><br>
-      Hoje em dia trabalho de Menor Aprendiz (Auxiliar de Escritórios em Geral) e estou migrando para a
-      programação (buscando uma vaga em tempo integral). Faço parte também da Equipe SnowMan que está sendo
-      desenvolvida por 4 jovens com um grande sonho… Se tornar uma instituição de grande porte e aberta a
-      contratações.
-      <br><br>
-      <strong>Linguagens que utilizo:</strong>
-      <br>
-      &#128013; Python <br>
-      &#10024; JavaScript <br>
-      &#128044; MySQL <br>
-      &#128214; HTML5 <br>
-      &#127912; CSS3 <br>
-      <br><br>
 
-      <strong>Frameworks que já utilizei:</strong>
-      <br>
-      &#127917; Bootstrap<br>
-      &#128299; Django <br>
-      &#129488; React <br>
-      &#128640; Node <br>
-      &#9889; FastAPI <br>
-      &#127917; Miligram <br>
-
-      <br>
-      <strong>Tecnologias que vou estudar:</strong>
-      <br>
-      &#129327; Rust <br>
-      &#128126; TypeScript. <br>
-      🎓 Angular. <br>
-      <br>
-    </h2>
-    <h1 class="top-title" style="color: #007067;">Sou o Melhor Júnior de Hoje e o Melhor Sênior de Amanhã…</h1>
+  <div class="fundo" style="margin-top: 20px;">
+    <h1 class="title text-center text-dark"> &bull; Frameworks e Linguagens de Marcação</h1>
   </div>
 
 
