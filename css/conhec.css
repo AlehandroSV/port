@@ -1,0 +1,51 @@
+.icons {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.icon-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+@media screen and (max-width: 1070px) {
+    .icon-box {
+        grid-template-columns: 1fr;
+    }
+
+    .icons {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .icons {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .icons {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 1180px){
+    .icons {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+}
