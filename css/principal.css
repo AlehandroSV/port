@@ -2,9 +2,10 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 * {
     color: #fff !important;
-    font-family: Kanit;
+    font-family: 'Kanit', sans-serif;
 }

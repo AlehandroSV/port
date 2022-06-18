@@ -4,26 +4,53 @@
     justify-items: center;
 }
 
-
 .title {
     margin-top: 10px;
 }
 
-.card {
-    width: 35rem; 
+.ling {
+    width: 35rem;
     margin: 10px 0px 0px 0px;
 }
 
+.frameworks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px 10px;
+}
+
+.frameworks > .col {
+    margin: 0px 10px 50px 10px;
+}
+
+.icon {
+    width: 100px !important;
+    align-self: center;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1360px) {
+    .frameworks {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 @media screen and (max-width: 1170px) {
-    .card {
-        width: 30rem; 
+    .ling {
+        width: 30rem;
         margin: 10px 0px 0px 0px;
     }
 }
 
+@media screen and (max-width: 1030px) {
+    .frameworks {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media screen and (max-width: 1000px) {
-    .card {
-        width: 25rem; 
+    .ling {
+        width: 25rem;
         margin: 10px 0px 0px 0px;
     }
 }
@@ -32,8 +59,9 @@
     .conhecimento-container {
         grid-template-columns: 1fr;
     }
-    .card {
-        width: 30rem; 
+
+    .ling {
+        width: 30rem;
         margin: 10px 0px 0px 0px;
     }
 }
@@ -42,9 +70,14 @@
     .conhecimento-container {
         grid-template-columns: 1fr;
     }
-    .card {
-        width: 25rem; 
+
+    .ling {
+        width: 25rem;
         margin: 10px 0px 0px 0px;
+    }
+
+    .frameworks {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -52,8 +85,9 @@
     .conhecimento-container {
         grid-template-columns: 1fr;
     }
-    .card {
-        width: 20rem; 
+
+    .ling {
+        width: 20rem;
         margin: 10px 0px 0px 0px;
     }
 }
