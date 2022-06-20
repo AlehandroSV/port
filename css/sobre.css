@@ -1,0 +1,34 @@
+.name {
+    text-align: center;
+
+}
+
+.sobre {
+    padding: 10px 0px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.botoes>a>button {
+    background-color: #dc3545;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px white;
+    border: none;
+    padding: 10px;
+}
+
+.botoes>a>button:hover {
+    background-color: white;
+    box-shadow: 2px 2px 2px #dc3545;
+    color: black !important;
+    transition: 0.4s;
+}
+
+.botoes>button>a {
+    text-decoration: none;
+    font-size: 14pt;
+    border-radius: 8px;
+}
