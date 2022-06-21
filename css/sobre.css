@@ -1,6 +1,5 @@
 .name {
     text-align: center;
-
 }
 
 .sobre {
@@ -15,15 +14,15 @@
 .botoes>a>button {
     background-color: #dc3545;
     border-radius: 8px;
-    box-shadow: 1px 1px 1px white;
+    box-shadow: 2px 2px 2px #212529;
     border: none;
     padding: 10px;
 }
 
 .botoes>a>button:hover {
-    background-color: white;
+    background-color: #212529;
     box-shadow: 2px 2px 2px #dc3545;
-    color: black !important;
+    color: #dc3545 !important;
     transition: 0.4s;
 }
 
